@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5dd4d79-d7f0-432c-83cb-74a565585dbb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/pusher/pusher-php-server" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1Uu0q2HGJnjH9poAPNnwSeYFpXS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5dd4d79-d7f0-432c-83cb-74a565585dbb" name="Default Changelist" comment="" />
+      <created>1576191361064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576191361064</updated>
+      <workItem from="1576191364846" duration="402000" />
+      <workItem from="1576677808751" duration="45000" />
+      <workItem from="1576677854945" duration="31000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="165" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576191759490">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="165" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/49.27.1317.741@49.27.1317.741" timestamp="1576191759490" />
+    <state x="490" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576677850921">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="490" y="155" width="424" height="484" key="FileChooserDialogImpl/49.27.1317.741@49.27.1317.741" timestamp="1576677850921" />
+    <state x="363" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1576677821117">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="363" y="225" key="com.intellij.ide.util.TipDialog/49.27.1317.741@49.27.1317.741" timestamp="1576677821117" />
+  </component>
+</project>
