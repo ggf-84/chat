@@ -22,6 +22,6 @@ class Friend extends Model {
 
     public function user(){
         // return $this->hasOne('App\User', 'id', 'friend_id');
-        return $this->belongsTo('App\User', 'friend_id', 'id');
+        return $this->belongsTo('App\User', 'user_friends', 'accepted_friend_id', 'id');
     }
 }

@@ -64,10 +64,10 @@ class User extends Authenticatable implements JWTSubject
     // }
 
     public function requested_friends(){
-        return $this->belongsToMany('App\User', 'user_friend', 'user_id', 'request_friend_id');
+        return $this->belongsToMany('App\User', 'user_friends', 'requested_friend_id', 'id');
     }
 
-    public function accepted_friends(){
-        return $this->belongsToMany('App\User', 'user_friend', 'user_id', 'accepted_friend_id');
+    public function friends(){
+        return $this->requested_friends()->where('accepted', 1);
     }
 }
