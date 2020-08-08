@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use App\Friend;
 use App\MessageUser;
 use App\Message;
 use App\Events\NewMessage;
@@ -169,7 +170,7 @@ class UserController extends Controller
         $user = $this->checkAuthentification();
 
         $userId = $user->id;     
-  
+        
         foreach ($user->requested_friends as $friend) {
             $friend->last_message; 
         }

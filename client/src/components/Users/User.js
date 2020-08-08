@@ -13,7 +13,7 @@ export default function User({user}) {
                                 <div className="img_cont">
                                     <span className="badge badge-primary badge-pill">
                                      { fireRedirect ? 
-                                        (user.last_message[0].is_read > 0 ? 1 : '') 
+                                        (user.last_message[0]?.is_read > 0 ? 1 : '') 
                                         : ''}
                                     </span>
                                     <img src={ user.avatar } className="rounded-circle user_img" alt=""/>

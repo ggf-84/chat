@@ -59,11 +59,15 @@ class User extends Authenticatable implements JWTSubject
             ->orderBy('id', 'desc')->take(1);
     }
 
+    // public function userMessages(){
+    //     return $this->hasMany('App\Message');
+    // }
+
     public function requested_friends(){
-        return $this->belongsToMany('App\User', 'user_friends', 'requested_friend_id', 'id');
+        return $this->belongsToMany('App\User', 'user_friends', 'user_id', 'requested_friend_id');
     }
 
-    public function friends(){
+    public function accepted_friends(){
         return $this->requested_friends()->where('accepted', 1);
     }
 }
