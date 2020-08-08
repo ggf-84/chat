@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\User;
-use App\Friend;
 use App\MessageUser;
 use App\Message;
 use App\Events\NewMessage;

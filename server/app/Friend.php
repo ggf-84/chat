@@ -1,22 +1,15 @@
 <?php
-
+/*
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Friend extends Model {
+class UserFriend extends Model {
 
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
+
     protected $hidden = [
-        'user_id',  'friend_id'
+        'user_id',  'requested_friend_id'
     ];
-    // protected $fillable = [
-    //     'user_id',  'friend_id'
-    // ];
 
     public $timestamps = false;
 
