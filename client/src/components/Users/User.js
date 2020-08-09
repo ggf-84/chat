@@ -23,8 +23,10 @@ export default function User({user}) {
                                     <span>{ user.nickname }</span>
                                     <div className="last_msg">
                                         {   lastMessage ? 
-                                            (lastMessage.substr(0,15) + (lastMessage.length > 15 ? '...' : '')) : ''
-                                            // ((user.last_message[0].text).substr(0,15) + ((user.last_message[0].text).length > 15 ? '...' : ''))
+                                            (lastMessage.substr(0,15) + (lastMessage.length > 15 ? '...' : '')) : 
+                                            ( user.last_message.length > 0 
+                                                ? (user.last_message[0].text).substr(0,15) + ((user.last_message[0].text).length > 15 ? '...' : '')
+                                                : '')
                                         }
                                         </div>
                                     <p>{ user.active ? '' : user.left_at }</p>

@@ -478,7 +478,7 @@ class Provider extends Component{
             console.log(error)
         });
 
-        this.bindNewMessage()
+        // this.bindNewMessage()
     }
 
     //end Chat functions
