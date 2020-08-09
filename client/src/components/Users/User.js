@@ -6,7 +6,7 @@ export default function User({user}) {
     return <Consumer>
         {value => {
             const {startChat,partnerId,fireRedirect,lastMessage} = value;
-            console.log('123',user)
+            
             return (
                     <Link to={`/chat/${user.id}`} onClick={() => startChat(user.id)} >
                         <li className={`${user.id === partnerId ? 'active' : ''}`}>
